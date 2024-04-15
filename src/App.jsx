@@ -1,7 +1,7 @@
 // import './App.css'
 import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-// import { db } from "./firebaseconfig";
+
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import Card from "./Card/card";
 import Card2 from "./../src/card2.jsx";
